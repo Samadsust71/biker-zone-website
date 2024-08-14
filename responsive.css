@@ -27,12 +27,31 @@
     .banner-title {
         font-size: 2rem;
     }
+    .featured-bikes{
+        max-width: 90%;
+    } 
+    .featured-bikes-title{
+        font-size: 1.5rem;
+        line-height: 24px;
+    }
+    .hr hr{
+        width: 20%;
+    }
+    .bikes{
+        flex-direction: column;
+        row-gap: 100px;
+    }
 }
 
 /* for medium devices */
 @media screen and (min-width: 577px) and (max-width: 992px) {
 
-
+    header {
+        background-image: linear-gradient(90.00deg, rgb(24, 24, 24),rgba(24, 24, 24, 0.82) 24.479%,rgba(24, 24, 24, 0) 100%), url(images/others/latest3.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
     .navbar-content {
         justify-content: space-between;
         flex: 1;
