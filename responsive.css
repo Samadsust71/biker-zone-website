@@ -2,7 +2,6 @@
 @media screen and (max-width: 576px) {
     .header-container {
         max-width: 90%;
-        margin: 0 auto;
     }
 
     .navbar-content {
@@ -34,9 +33,7 @@
         font-size: 1.5rem;
         line-height: 24px;
     }
-    .hr hr{
-        width: 20%;
-    }
+    
     .bikes{
         flex-direction: column;
         row-gap: 100px;
@@ -61,11 +58,15 @@
         flex-direction: column;
         row-gap: 40px;
     }
-
+    .banner-img{
+        display: none;
+    }
     .banner-content,
-    .banner-img,
     #banner-description-1 {
         width: 100%;
+    }
+    .banner-content{
+        padding-bottom: 100px;
     }
 
 }

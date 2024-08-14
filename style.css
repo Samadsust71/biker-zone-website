@@ -147,8 +147,8 @@ header {
     align-items: center;
 }
 .hr hr{
-    border: 1px solid rgb(231, 111, 81);
-    width: 6%;
+    border-color:rgb(231, 111, 81);
+    width: 58px;
 }
 .bikes{
     display: flex;
