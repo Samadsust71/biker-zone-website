@@ -115,6 +115,7 @@ header {
 .banner-img img {
     width: 100%;
     height: 500px;
+
 }
 
 /* main section styles */
@@ -141,21 +142,105 @@ header {
     text-align: center;
     margin-top: 0px;
 }
-.hr{ 
+
+.hr {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.hr hr{
-    border-color:rgb(231, 111, 81);
+
+.hr hr {
+    border-color: rgb(231, 111, 81);
     width: 58px;
 }
-.bikes{
+
+.bikes {
     display: flex;
     justify-content: space-between;
     flex: 1;
     margin-top: 120px;
 }
-.bike-img img{
+
+.bike-img img {
     width: 100%;
+}
+
+.filter {
+    filter: grayscale(100%);
+
+}
+
+/* latest news styles */
+.latest-news {
+    max-width: 80%;
+    margin: 150px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.latest-news-title {
+    color: rgb(10, 8, 38);
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+.bikes-model-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.bike-model {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+}
+
+.bike-model img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.model-title {
+    color: rgb(24, 25, 31);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 40px;
+    letter-spacing: 0%;
+}
+
+.model-description {
+    color: rgb(108, 108, 108);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    margin-top: 10px;
+}
+
+.model-btn {
+    margin-top: 40px;
+    padding: 10px 40px;
+    background: transparent;
+    border: 1px solid rgb(231, 111, 81);
+    border-radius: 5px;
+    color: rgb(231, 111, 81);
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0%;
+    cursor: pointer;
+}
+.model-btn:hover{
+    background:  rgb(231, 111, 81);
+    color: rgb(255, 255, 255);
+}
+.model-btn:active{
+    background:  rgba(231, 111, 81,.8);
+    color: rgb(255, 255, 255);
 }

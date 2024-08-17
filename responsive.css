@@ -38,6 +38,19 @@
         flex-direction: column;
         row-gap: 100px;
     }
+    .latest-news {
+        max-width: 90%;
+        margin: 75px auto;
+        align-items: flex-start;
+    }
+    .latest-news-title {
+        font-size: 2rem;
+        line-height: 54px;
+       
+    }
+    .bikes-model-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 /* for medium devices */
